@@ -1,0 +1,16 @@
+C:\GitHub\Corona-database-management\server\DTO\bin\Debug\net8.0\DTO.deps.json
+C:\GitHub\Corona-database-management\server\DTO\bin\Debug\net8.0\DTO.dll
+C:\GitHub\Corona-database-management\server\DTO\bin\Debug\net8.0\DTO.pdb
+C:\GitHub\Corona-database-management\server\DTO\bin\Debug\net8.0\DAL.dll
+C:\GitHub\Corona-database-management\server\DTO\bin\Debug\net8.0\DAL.pdb
+C:\GitHub\Corona-database-management\server\DTO\obj\Debug\net8.0\DTO.csproj.AssemblyReference.cache
+C:\GitHub\Corona-database-management\server\DTO\obj\Debug\net8.0\DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\Corona-database-management\server\DTO\obj\Debug\net8.0\DTO.AssemblyInfoInputs.cache
+C:\GitHub\Corona-database-management\server\DTO\obj\Debug\net8.0\DTO.AssemblyInfo.cs
+C:\GitHub\Corona-database-management\server\DTO\obj\Debug\net8.0\DTO.csproj.CoreCompileInputs.cache
+C:\GitHub\Corona-database-management\server\DTO\obj\Debug\net8.0\DTO.sourcelink.json
+C:\GitHub\Corona-database-management\server\DTO\obj\Debug\net8.0\DTO.csproj.Up2Date
+C:\GitHub\Corona-database-management\server\DTO\obj\Debug\net8.0\DTO.dll
+C:\GitHub\Corona-database-management\server\DTO\obj\Debug\net8.0\refint\DTO.dll
+C:\GitHub\Corona-database-management\server\DTO\obj\Debug\net8.0\DTO.pdb
+C:\GitHub\Corona-database-management\server\DTO\obj\Debug\net8.0\ref\DTO.dll
