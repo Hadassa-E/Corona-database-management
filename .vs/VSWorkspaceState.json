@@ -3,8 +3,10 @@
     "",
     "\\server",
     "\\server\\DAL",
+    "\\server\\DAL\\DAL",
+    "\\server\\DAL\\DAL\\Functions",
     "\\server\\DTO"
   ],
-  "SelectedNode": "\\server\\DAL\\DAL.sln",
+  "SelectedNode": "\\server\\DAL\\DAL\\Functions\\VaccineDAL.cs",
   "PreviewInSolutionExplorer": false
 }
