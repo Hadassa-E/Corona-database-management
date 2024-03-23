@@ -33,7 +33,7 @@ namespace DAL.Functions
             return true;
         }
 
-        public List<VaccineType> getAllVaccineTypes()
+        public List<VaccineType> GetAllVaccineTypes()
         {
             return db.VaccineTypes.ToList();
         }

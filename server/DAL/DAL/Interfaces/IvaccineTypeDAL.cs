@@ -9,7 +9,7 @@ namespace DAL.Interfaces
 {
     public interface IvaccineTypeDAL
     {
-        List<VaccineType> getAllVaccineTypes();
+        List<VaccineType> GetAllVaccineTypes();
         VaccineType GetVaccineType(int id);
         bool DeleteVaccineType(int id);
         int AddVaccineType(VaccineType vaccineType);

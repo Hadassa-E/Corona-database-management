@@ -8,5 +8,10 @@ namespace DTO
 {
     public class VaccineTypeDTO
     {
+        public int VaccineTypeId { get; set; }
+
+        public string VaccineTypeManufacturer { get; set; } = null!;
+
+        public int VaccineTypeNumOfVaccinated { get; set; }
     }
 }

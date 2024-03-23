@@ -2,6 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\DAL",
+    "\\DAL\\DAL",
+    "\\DAL\\DAL\\Interfaces",
+    "\\DAL\\DAL\\Models",
     "\\DTO"
   ],
   "SelectedNode": "\\DAL\\DAL.sln",

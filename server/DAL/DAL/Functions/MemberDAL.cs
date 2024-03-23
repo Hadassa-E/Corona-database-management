@@ -37,7 +37,7 @@ namespace DAL.Functions
             return true;
         }
 
-        public List<Member> getAllMember()
+        public List<Member> GetAllMember()
         {
             return db.Members.Include(x => x.CoronaInfections).Include(y=>y.Vaccines).ToList();
         }

@@ -90,10 +90,6 @@ namespace BLL.Functions
             return true;
         }
 
-        public static bool IsValidDates(DateOnly date1, DateOnly date2)
-        {
-            return date2 > date1;
-        }
         #endregion
     }
 }

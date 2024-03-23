@@ -9,7 +9,7 @@ namespace DAL.Interfaces
 {
     public interface ImemberDAL
     {
-        List<Member> getAllMember();
+        List<Member> GetAllMember();
         Member GetMember(string id);
         bool DeleteMember(string id);
         string AddMember(Member member);

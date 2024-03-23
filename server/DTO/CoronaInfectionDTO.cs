@@ -8,5 +8,14 @@ namespace DTO
 {
     public class CoronaInfectionDTO
     {
+        public int CoronaInfectionId { get; set; }
+
+        public string CoronaInfectionMemberId { get; set; } = null!;
+
+        public DateOnly CoronaInfectionFromDate { get; set; }
+
+        public DateOnly? CoronaInfectionToDate { get; set; }
+        public string? CoronaInfectionMemberFullName { get; set; }
+
     }
 }
