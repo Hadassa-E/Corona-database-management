@@ -9,7 +9,7 @@ namespace BLL.Interfaces
 {
     public interface ImemberBLL
     {
-        List<MemberDTO> getAllMemberBLL();
+        List<MemberDTO> GetAllMemberBLL();
         MemberDTO GetMemberBLL(string id);
         bool DeleteMemberBLL(string id);
         string AddMemberBLL(MemberDTO member);

@@ -10,7 +10,7 @@ namespace BLL.Interfaces
 {
     public interface IvaccineBLL
     {
-        List<VaccineDTO> getAllVaccinesBLL();
+        List<VaccineDTO> GetAllVaccinesBLL();
         VaccineDTO GetVaccineBLL(int id);
         bool DeleteVaccineBLL(int id);
         int AddVaccineBLL(VaccineDTO vaccine);

@@ -37,9 +37,9 @@ namespace BLL.Functions
             return v.DeleteVaccine(id); 
         }
 
-        public List<VaccineDTO> getAllVaccinesBLL()
+        public List<VaccineDTO> GetAllVaccinesBLL()
         {
-            return mapper.Map<List<Vaccine>, List<VaccineDTO>>(v.getAllVaccines());
+            return mapper.Map<List<Vaccine>, List<VaccineDTO>>(v.GetAllVaccines());
         }
 
         public VaccineDTO GetVaccineBLL(int id)
