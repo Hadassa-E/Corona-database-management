@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "emyDpHMLGfVq2uzsnMJtyVXZy2cav8jHNMfub1/z+nzu+WrGwfFYg562vJV3uQ6UeAiK7DCFSAacr/7kk76yEA==",
+  "dgSpecHash": "Vx+onJX2HdDSnCUsBXfwtqv0wQ/aXMV34y9fk7Dm5UUDfPb0f7z5V6PGkzedgxPqhBbv6/pZfW6g9bz9hyFO9A==",
   "success": true,
   "projectFilePath": "C:\\GitHub\\Corona-database-management\\server\\DTO\\DTO.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Hadassa\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
-    "C:\\Users\\Hadassa\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\Hadassa\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\Hadassa\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\Hadassa\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Hadassa\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\Hadassa\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

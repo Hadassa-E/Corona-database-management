@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DAL.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,7 +16,7 @@ namespace DTO
         public DateOnly CoronaInfectionFromDate { get; set; }
 
         public DateOnly? CoronaInfectionToDate { get; set; }
-        public string? CoronaInfectionMemberFullName { get; set; }
+        //public string? CoronaInfectionMemberFullName { get; set; }
 
     }
 }

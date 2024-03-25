@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
+using AutoMapper.Execution;
 using BLL.Interfaces;
 using DAL.Functions;
 using DAL.Interfaces;
@@ -45,6 +46,11 @@ namespace BLL.Functions
         public VaccineDTO GetVaccineBLL(int id)
         {
             return mapper.Map<Vaccine, VaccineDTO>(v.GetVaccine(id));
+        }
+
+        public bool UpdateVaccineBLL(VaccineDTO vaccine)
+        {
+            return v.UpdateVaccine(mapper.Map<VaccineDTO, Vaccine>(vaccine));
         }
     }
 }

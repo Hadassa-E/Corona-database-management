@@ -13,5 +13,7 @@ namespace DAL.Interfaces
         Vaccine GetVaccine(int id);
         bool DeleteVaccine(int id);
         int AddVaccine(Vaccine vaccine);
+        bool UpdateVaccine(Vaccine vaccine);
+
     }
 }

@@ -14,5 +14,7 @@ namespace BLL.Interfaces
         VaccineDTO GetVaccineBLL(int id);
         bool DeleteVaccineBLL(int id);
         int AddVaccineBLL(VaccineDTO vaccine);
+        bool UpdateVaccineBLL(VaccineDTO vaccine);
+
     }
 }

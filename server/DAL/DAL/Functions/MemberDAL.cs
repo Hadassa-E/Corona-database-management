@@ -49,10 +49,9 @@ namespace DAL.Functions
 
         public bool UpdateMember(Member member)
         {
-            Member m = db.Members.FirstOrDefault(f => f.MemberId.Equals(member.MemberId));
+            Member m = GetMember(member.MemberId);
             if (m == null)
                 return false;
-            m.MemberId = member.MemberId;
             m.MemberFirstname = member.MemberFirstname;
             m.MemberLastname = member.MemberLastname;
             m.MemberPic = member.MemberPic;

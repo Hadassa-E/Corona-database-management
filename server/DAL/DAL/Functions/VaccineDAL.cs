@@ -41,5 +41,16 @@ namespace DAL.Functions
         {
             return db.Vaccines.FirstOrDefault(v => v.VaccineId==id);
         }
+
+        public bool UpdateVaccine(Vaccine vaccine)
+        {
+                Vaccine v = GetVaccine(vaccine.VaccineId);
+                if (v == null)
+                    return false;
+                v.VaccineDate = vaccine.VaccineDate;
+                v.VaccineVaccineTypeId = vaccine.VaccineVaccineTypeId;
+                db.SaveChanges();
+                return true;
+        }
     }
 }

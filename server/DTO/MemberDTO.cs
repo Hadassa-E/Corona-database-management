@@ -31,7 +31,7 @@ namespace DTO
 
         public int MemberCountOfVaccines { get; set; }
 
-        public  string MemberCityName { get; set; }
+       // public  string MemberCityName { get; set; }
 
     }
 }

@@ -16,7 +16,7 @@ namespace DTO
         public int VaccineVaccineTypeId { get; set; }
 
         public string VaccineMemberId { get; set; } = null!;
-        public string? VaccineMemberFullName { get; set; }
+        //public string? VaccineMemberFullName { get; set; }
 
 
     }

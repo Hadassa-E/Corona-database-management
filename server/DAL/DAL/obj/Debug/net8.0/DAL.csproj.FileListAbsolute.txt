@@ -13,3 +13,17 @@ C:\GitHub\Corona-database-management\server\DAL\DAL\obj\Debug\net8.0\refint\DAL.
 C:\GitHub\Corona-database-management\server\DAL\DAL\obj\Debug\net8.0\DAL.pdb
 C:\GitHub\Corona-database-management\server\DAL\DAL\obj\Debug\net8.0\DAL.genruntimeconfig.cache
 C:\GitHub\Corona-database-management\server\DAL\DAL\obj\Debug\net8.0\ref\DAL.dll
+C:\Users\Hadassa\Desktop\Corona-database-management\server\DAL\DAL\bin\Debug\net8.0\DAL.deps.json
+C:\Users\Hadassa\Desktop\Corona-database-management\server\DAL\DAL\bin\Debug\net8.0\DAL.runtimeconfig.json
+C:\Users\Hadassa\Desktop\Corona-database-management\server\DAL\DAL\bin\Debug\net8.0\DAL.dll
+C:\Users\Hadassa\Desktop\Corona-database-management\server\DAL\DAL\bin\Debug\net8.0\DAL.pdb
+C:\Users\Hadassa\Desktop\Corona-database-management\server\DAL\DAL\obj\Debug\net8.0\DAL.csproj.AssemblyReference.cache
+C:\Users\Hadassa\Desktop\Corona-database-management\server\DAL\DAL\obj\Debug\net8.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hadassa\Desktop\Corona-database-management\server\DAL\DAL\obj\Debug\net8.0\DAL.AssemblyInfoInputs.cache
+C:\Users\Hadassa\Desktop\Corona-database-management\server\DAL\DAL\obj\Debug\net8.0\DAL.AssemblyInfo.cs
+C:\Users\Hadassa\Desktop\Corona-database-management\server\DAL\DAL\obj\Debug\net8.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Hadassa\Desktop\Corona-database-management\server\DAL\DAL\obj\Debug\net8.0\DAL.dll
+C:\Users\Hadassa\Desktop\Corona-database-management\server\DAL\DAL\obj\Debug\net8.0\refint\DAL.dll
+C:\Users\Hadassa\Desktop\Corona-database-management\server\DAL\DAL\obj\Debug\net8.0\DAL.pdb
+C:\Users\Hadassa\Desktop\Corona-database-management\server\DAL\DAL\obj\Debug\net8.0\DAL.genruntimeconfig.cache
+C:\Users\Hadassa\Desktop\Corona-database-management\server\DAL\DAL\obj\Debug\net8.0\ref\DAL.dll

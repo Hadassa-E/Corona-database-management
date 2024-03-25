@@ -34,7 +34,12 @@ namespace API.Controllers
 
             return Ok(v.AddVaccineBLL(vaccine));
         }
-
+        //Update-Vaccine
+        [HttpPut("UpdateVaccine")]
+        public ActionResult<bool> UpdateVaccine([FromBody] VaccineDTO vaccine)
+        {
+            return Ok(v.UpdateVaccineBLL(vaccine));
+        }
         //Delete-Vaccine
         [HttpDelete("DeleteVaccine/{id}")]
         public ActionResult<bool> DeleteVaccine(int id)
