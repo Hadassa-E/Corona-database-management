@@ -12,6 +12,7 @@ namespace DAL.Interfaces
     {
         List<CoronaInfection> GetAllCoronaInfections();
         CoronaInfection GetCoronaInfection(int id);
+        CoronaInfection GetCoronaInfectionToMember(string id);
         int AddCoronaInfection(CoronaInfection coronaInfection);
         bool UpdateCoronaInfection_ToDate(int id, DateOnly date);
         bool DeleteCoronaInfection(int id);

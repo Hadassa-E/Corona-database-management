@@ -47,6 +47,11 @@ namespace BLL.Functions
             return mapper.Map<CoronaInfection, CoronaInfectionDTO>(ci.GetCoronaInfection(id));
         }
 
+        public CoronaInfectionDTO GetCoronaInfectionToMemberBLL(string id)
+        {
+            return mapper.Map<CoronaInfection, CoronaInfectionDTO>(ci.GetCoronaInfectionToMember(id));
+        }
+
         public bool UpdateCoronaInfection_ToDateBLL(int id, DateOnly date)
         {
             CoronaInfection cc=ci.GetCoronaInfection(id);

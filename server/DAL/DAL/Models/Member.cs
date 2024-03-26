@@ -19,6 +19,8 @@ public partial class Member
 
     public int MemberCityId { get; set; }
 
+    public DateOnly MemberBirthdate { get; set; }
+
     public string? MemberPhone { get; set; }
 
     public string? MemberTelephone { get; set; }

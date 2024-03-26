@@ -32,7 +32,8 @@ namespace BLL.Functions
                  ChecksBLL.IsValidHebrewText(member.MemberLastname) &&
                  ChecksBLL.IsValidHebrewText(member.MemberAddressStreet) &&
                  ChecksBLL.IsValidPhone(member.MemberPhone) &&
-                 ChecksBLL.IsValidTelephone(member.MemberTelephone))
+                 ChecksBLL.IsValidTelephone(member.MemberTelephone)&&
+                 member.MemberBirthdate<= DateOnly.FromDateTime(DateTime.Today))
                 return m.AddMember(mapper.Map<MemberDTO, Member>(member));
             return "0";
         }
@@ -58,7 +59,8 @@ namespace BLL.Functions
                        ChecksBLL.IsValidHebrewText(member.MemberLastname) &&
                        ChecksBLL.IsValidHebrewText(member.MemberAddressStreet) &&
                        ChecksBLL.IsValidPhone(member.MemberPhone) &&
-                       ChecksBLL.IsValidTelephone(member.MemberTelephone))
+                       ChecksBLL.IsValidTelephone(member.MemberTelephone)&&
+                       member.MemberBirthdate <= DateOnly.FromDateTime(DateTime.Today))
                 return m.UpdateMember(mapper.Map<MemberDTO, Member>(member));
             return false;
         }

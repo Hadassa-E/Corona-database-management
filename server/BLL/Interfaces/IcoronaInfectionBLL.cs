@@ -12,6 +12,8 @@ namespace BLL.Interfaces
     {
         List<CoronaInfectionDTO> GetAllCoronaInfectionsBLL();
         CoronaInfectionDTO GetCoronaInfectionBLL(int id);
+        CoronaInfectionDTO GetCoronaInfectionToMemberBLL(string id);
+
         int AddCoronaInfectionBLL(CoronaInfectionDTO coronaInfection);
         bool UpdateCoronaInfection_ToDateBLL(int id, DateOnly date);
         bool DeleteCoronaInfectionBLL(int id);

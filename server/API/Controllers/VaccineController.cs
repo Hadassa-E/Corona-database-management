@@ -21,6 +21,13 @@ namespace API.Controllers
         {
             return Ok(v.GetAllVaccinesBLL());
         }
+        //GetAll-to member-Vaccine
+
+        [HttpGet("GetAllVaccinesToMember/{id}")]
+        public ActionResult<List<Vaccine>> GetAllVaccinesToMember(string id)
+        {
+            return Ok(v.GetAllVaccinesToMemberBLL(id));
+        }
         //GetById-Vaccine
         [HttpGet("GetVaccineById/{id}")]
         public ActionResult<Vaccine> GetVaccineById(int id)

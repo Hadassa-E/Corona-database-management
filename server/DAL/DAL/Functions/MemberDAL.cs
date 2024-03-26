@@ -58,6 +58,7 @@ namespace DAL.Functions
             m.MemberAddressStreet = member.MemberAddressStreet;
             m.MemberAddressBuildingNumber = member.MemberAddressBuildingNumber; 
             m.MemberCityId = member.MemberCityId;
+            m.MemberBirthdate= member.MemberBirthdate;
             m.MemberPhone = member.MemberPhone;
             m.MemberTelephone = member.MemberTelephone; 
             m.MemberWasSick= member.MemberWasSick;

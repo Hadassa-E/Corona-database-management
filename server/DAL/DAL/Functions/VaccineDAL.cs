@@ -42,6 +42,11 @@ namespace DAL.Functions
             return db.Vaccines.FirstOrDefault(v => v.VaccineId==id);
         }
 
+        public List<Vaccine> GetAllVaccinesToMember(string id)
+        {
+            return db.Vaccines.Where(x=>x.VaccineMemberId == id).ToList();
+        }
+
         public bool UpdateVaccine(Vaccine vaccine)
         {
                 Vaccine v = GetVaccine(vaccine.VaccineId);

@@ -69,6 +69,7 @@ public partial class CoronaProjectContext : DbContext
             entity.Property(e => e.MemberAddressStreet)
                 .HasMaxLength(20)
                 .HasColumnName("member_addressStreet");
+            entity.Property(e => e.MemberBirthdate).HasColumnName("member_birthdate");
             entity.Property(e => e.MemberCityId).HasColumnName("member_city_id");
             entity.Property(e => e.MemberCountOfVaccines).HasColumnName("member_countOfVaccines");
             entity.Property(e => e.MemberFirstname)

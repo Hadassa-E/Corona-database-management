@@ -22,6 +22,7 @@ namespace DTO
         public int MemberAddressBuildingNumber { get; set; }
 
         public int MemberCityId { get; set; }
+        public DateOnly MemberBirthdate { get; set; }
 
         public string? MemberPhone { get; set; }
 

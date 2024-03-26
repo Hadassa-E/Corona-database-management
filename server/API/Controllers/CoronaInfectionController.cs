@@ -27,6 +27,12 @@ namespace API.Controllers
         {
             return Ok(c.GetCoronaInfectionBLL(id));
         }
+        //GetById-to member=CoronaInfection
+        [HttpGet("GetCoronaInfectionByIdToMember/{id}")]
+        public ActionResult<CoronaInfection> GetCoronaInfectionByIdToMember(string id)
+        {
+            return Ok(c.GetCoronaInfectionToMemberBLL(id));
+        }
         //Add-CoronaInfection
         [HttpPost("AddCoronaInfection")]
         public ActionResult<bool> AddCoronaInfection([FromBody] CoronaInfectionDTO coronaInfection)

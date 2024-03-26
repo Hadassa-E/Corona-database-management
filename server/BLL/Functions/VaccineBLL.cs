@@ -48,6 +48,11 @@ namespace BLL.Functions
             return mapper.Map<Vaccine, VaccineDTO>(v.GetVaccine(id));
         }
 
+        public List<VaccineDTO> GetAllVaccinesToMemberBLL(string id)
+        {
+            return mapper.Map<List<Vaccine>, List<VaccineDTO>>(v.GetAllVaccinesToMember(id));
+        }
+
         public bool UpdateVaccineBLL(VaccineDTO vaccine)
         {
             return v.UpdateVaccine(mapper.Map<VaccineDTO, Vaccine>(vaccine));

@@ -44,6 +44,11 @@ namespace DAL.Functions
             return db.CoronaInfections.FirstOrDefault(c => c.CoronaInfectionId == id);
         }
 
+        public CoronaInfection GetCoronaInfectionToMember(string id)
+        {
+            return db.CoronaInfections.FirstOrDefault(c => c.CoronaInfectionMemberId == id);
+        }
+
         public bool UpdateCoronaInfection_ToDate(int id, DateOnly date)
         {
             CoronaInfection ci = db.CoronaInfections.FirstOrDefault(c => c.CoronaInfectionId == id);

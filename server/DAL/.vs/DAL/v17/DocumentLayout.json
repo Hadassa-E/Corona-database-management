@@ -6,13 +6,36 @@
       "AbsoluteMoniker": "D:0:0:{68E6E80A-7C48-4C4D-A8A8-F6A23AACC74E}|..\\API\\API.csproj|c:\\github\\corona-database-management\\server\\api\\controllers\\vaccinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68E6E80A-7C48-4C4D-A8A8-F6A23AACC74E}|..\\API\\API.csproj|c:\\github\\corona-database-management\\server\\api\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4EC77288-AB60-4339-A487-A5B94BB8371D}|..\\BLL\\BLL.csproj|c:\\github\\corona-database-management\\server\\bll\\functions\\vaccinebll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4EC77288-AB60-4339-A487-A5B94BB8371D}|..\\BLL\\BLL.csproj|c:\\github\\corona-database-management\\server\\bll\\functions\\memberbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4EC77288-AB60-4339-A487-A5B94BB8371D}|..\\BLL\\BLL.csproj|c:\\github\\corona-database-management\\server\\bll\\interfaces\\ivaccinebll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EC77288-AB60-4339-A487-A5B94BB8371D}|..\\BLL\\BLL.csproj|c:\\github\\corona-database-management\\server\\bll\\interfaces\\imemberbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3BAD968-D04F-475A-B32E-61F9626EA6BA}|DAL\\DAL.csproj|c:\\github\\corona-database-management\\server\\dal\\dal\\functions\\vaccinedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3BAD968-D04F-475A-B32E-61F9626EA6BA}|DAL\\DAL.csproj|solutionrelative:dal\\functions\\vaccinedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3BAD968-D04F-475A-B32E-61F9626EA6BA}|DAL\\DAL.csproj|c:\\github\\corona-database-management\\server\\dal\\dal\\interfaces\\ivaccinedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3BAD968-D04F-475A-B32E-61F9626EA6BA}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\ivaccinedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68E6E80A-7C48-4C4D-A8A8-F6A23AACC74E}|..\\API\\API.csproj|c:\\github\\corona-database-management\\server\\api\\controllers\\coronainfectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EC77288-AB60-4339-A487-A5B94BB8371D}|..\\BLL\\BLL.csproj|c:\\github\\corona-database-management\\server\\bll\\functions\\coronainfectionbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EC77288-AB60-4339-A487-A5B94BB8371D}|..\\BLL\\BLL.csproj|c:\\github\\corona-database-management\\server\\bll\\interfaces\\icoronainfectionbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C14F12BE-85A2-4F57-9B72-5BCF09DDE337}|..\\DTO\\DTO.csproj|c:\\github\\corona-database-management\\server\\dto\\mapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C14F12BE-85A2-4F57-9B72-5BCF09DDE337}|..\\DTO\\DTO.csproj|c:\\github\\corona-database-management\\server\\dto\\memberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,19 +45,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MemberController.cs",
-              "DocumentMoniker": "C:\\GitHub\\Corona-database-management\\server\\API\\Controllers\\MemberController.cs",
-              "RelativeDocumentMoniker": "..\\API\\Controllers\\MemberController.cs",
-              "ToolTip": "C:\\GitHub\\Corona-database-management\\server\\API\\Controllers\\MemberController.cs",
-              "RelativeToolTip": "..\\API\\Controllers\\MemberController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAACQAAAAAAAAA",
+              "DocumentIndex": 4,
+              "Title": "VaccineDAL.cs",
+              "DocumentMoniker": "C:\\GitHub\\Corona-database-management\\server\\DAL\\DAL\\Functions\\VaccineDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\Functions\\VaccineDAL.cs",
+              "ToolTip": "C:\\GitHub\\Corona-database-management\\server\\DAL\\DAL\\Functions\\VaccineDAL.cs",
+              "RelativeToolTip": "DAL\\Functions\\VaccineDAL.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAYwCwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T21:14:03.071Z",
+              "WhenOpened": "2024-03-26T11:28:52.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IvaccineDAL.cs",
+              "DocumentMoniker": "C:\\GitHub\\Corona-database-management\\server\\DAL\\DAL\\Interfaces\\IvaccineDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\Interfaces\\IvaccineDAL.cs",
+              "ToolTip": "C:\\GitHub\\Corona-database-management\\server\\DAL\\DAL\\Interfaces\\IvaccineDAL.cs",
+              "RelativeToolTip": "DAL\\Interfaces\\IvaccineDAL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T11:28:32.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CoronaInfectionController.cs",
+              "DocumentMoniker": "C:\\GitHub\\Corona-database-management\\server\\API\\Controllers\\CoronaInfectionController.cs",
+              "RelativeDocumentMoniker": "..\\API\\Controllers\\CoronaInfectionController.cs",
+              "ToolTip": "C:\\GitHub\\Corona-database-management\\server\\API\\Controllers\\CoronaInfectionController.cs",
+              "RelativeToolTip": "..\\API\\Controllers\\CoronaInfectionController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAA2wB4AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T11:15:09.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CoronaInfectionBLL.cs",
+              "DocumentMoniker": "C:\\GitHub\\Corona-database-management\\server\\BLL\\Functions\\CoronaInfectionBLL.cs",
+              "RelativeDocumentMoniker": "..\\BLL\\Functions\\CoronaInfectionBLL.cs",
+              "ToolTip": "C:\\GitHub\\Corona-database-management\\server\\BLL\\Functions\\CoronaInfectionBLL.cs",
+              "RelativeToolTip": "..\\BLL\\Functions\\CoronaInfectionBLL.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAYwDQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T11:14:24.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IcoronaInfectionBLL.cs",
+              "DocumentMoniker": "C:\\GitHub\\Corona-database-management\\server\\BLL\\Interfaces\\IcoronaInfectionBLL.cs",
+              "RelativeDocumentMoniker": "..\\BLL\\Interfaces\\IcoronaInfectionBLL.cs",
+              "ToolTip": "C:\\GitHub\\Corona-database-management\\server\\BLL\\Interfaces\\IcoronaInfectionBLL.cs",
+              "RelativeToolTip": "..\\BLL\\Interfaces\\IcoronaInfectionBLL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T11:13:32.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IvaccineBLL.cs",
+              "DocumentMoniker": "C:\\GitHub\\Corona-database-management\\server\\BLL\\Interfaces\\IvaccineBLL.cs",
+              "RelativeDocumentMoniker": "..\\BLL\\Interfaces\\IvaccineBLL.cs",
+              "ToolTip": "C:\\GitHub\\Corona-database-management\\server\\BLL\\Interfaces\\IvaccineBLL.cs",
+              "RelativeToolTip": "..\\BLL\\Interfaces\\IvaccineBLL.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAMwA4AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T11:13:05.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VaccineBLL.cs",
+              "DocumentMoniker": "C:\\GitHub\\Corona-database-management\\server\\BLL\\Functions\\VaccineBLL.cs",
+              "RelativeDocumentMoniker": "..\\BLL\\Functions\\VaccineBLL.cs",
+              "ToolTip": "C:\\GitHub\\Corona-database-management\\server\\BLL\\Functions\\VaccineBLL.cs",
+              "RelativeToolTip": "..\\BLL\\Functions\\VaccineBLL.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAAwDYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T11:12:58.195Z",
               "EditorCaption": ""
             },
             {
@@ -45,35 +146,48 @@
               "RelativeDocumentMoniker": "..\\API\\Controllers\\VaccineController.cs",
               "ToolTip": "C:\\GitHub\\Corona-database-management\\server\\API\\Controllers\\VaccineController.cs",
               "RelativeToolTip": "..\\API\\Controllers\\VaccineController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAAACgAAAAoAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAABoAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T21:14:00.996Z",
+              "WhenOpened": "2024-03-26T11:11:30.205Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MemberBLL.cs",
-              "DocumentMoniker": "C:\\GitHub\\Corona-database-management\\server\\BLL\\Functions\\MemberBLL.cs",
-              "RelativeDocumentMoniker": "..\\BLL\\Functions\\MemberBLL.cs",
-              "ToolTip": "C:\\GitHub\\Corona-database-management\\server\\BLL\\Functions\\MemberBLL.cs",
-              "RelativeToolTip": "..\\BLL\\Functions\\MemberBLL.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAxwEIAAAAAAAAA",
+              "Title": "ImemberBLL.cs",
+              "DocumentMoniker": "C:\\GitHub\\Corona-database-management\\server\\BLL\\Interfaces\\ImemberBLL.cs",
+              "RelativeDocumentMoniker": "..\\BLL\\Interfaces\\ImemberBLL.cs",
+              "ToolTip": "C:\\GitHub\\Corona-database-management\\server\\BLL\\Interfaces\\ImemberBLL.cs",
+              "RelativeToolTip": "..\\BLL\\Interfaces\\ImemberBLL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T21:13:05.032Z",
+              "WhenOpened": "2024-03-26T11:30:53.436Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "VaccineBLL.cs",
-              "DocumentMoniker": "C:\\GitHub\\Corona-database-management\\server\\BLL\\Functions\\VaccineBLL.cs",
-              "RelativeDocumentMoniker": "..\\BLL\\Functions\\VaccineBLL.cs",
-              "ToolTip": "C:\\GitHub\\Corona-database-management\\server\\BLL\\Functions\\VaccineBLL.cs",
-              "RelativeToolTip": "..\\BLL\\Functions\\VaccineBLL.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAAADQAAABKAAAA",
+              "DocumentIndex": 9,
+              "Title": "Mapper.cs",
+              "DocumentMoniker": "C:\\GitHub\\Corona-database-management\\server\\DTO\\Mapper.cs",
+              "RelativeDocumentMoniker": "..\\DTO\\Mapper.cs",
+              "ToolTip": "C:\\GitHub\\Corona-database-management\\server\\DTO\\Mapper.cs",
+              "RelativeToolTip": "..\\DTO\\Mapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T21:11:38.058Z",
+              "WhenOpened": "2024-03-26T11:10:59.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MemberDTO.cs",
+              "DocumentMoniker": "C:\\GitHub\\Corona-database-management\\server\\DTO\\MemberDTO.cs",
+              "RelativeDocumentMoniker": "..\\DTO\\MemberDTO.cs",
+              "ToolTip": "C:\\GitHub\\Corona-database-management\\server\\DTO\\MemberDTO.cs",
+              "RelativeToolTip": "..\\DTO\\MemberDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T11:11:00.72Z",
               "EditorCaption": ""
             }
           ]
